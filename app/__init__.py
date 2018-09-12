@@ -34,6 +34,7 @@ def create_data(request):
     }
 
 def success_message():
+
     return jsonify({
         'response_type' : 'in_channel',
         'text' : 'Success!',
